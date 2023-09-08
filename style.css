@@ -1,0 +1,445 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox img {
+  width: 100%;
+}
+
+header {
+  background-color: #212529;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+}
+header h2 {
+  color: #fdd036;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: 300;
+}
+header ul {
+  float: right;
+  margin: -81px -59px;
+}
+header ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+header ul li a {
+  margin-right: 44px;
+  font-size: 20px;
+}
+header ul li a:hover {
+  color: #fdd036;
+}
+header .box .btn {
+  position: absolute;
+  top: 25px;
+  right: 88px;
+  border-radius: 10px;
+  font-size: 23px;
+  padding: 17px 45px;
+}
+header .box .icon {
+  font-size: 20px;
+  top: 56px;
+  position: absolute;
+  color: #212529;
+  right: 108px;
+}
+@media screen and (max-width: 993px) {
+  header {
+    background-color: #212529;
+    height: 134px;
+    width: 100%;
+    position: fixed;
+  }
+  header h2 {
+    color: #fdd036;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: 300;
+    position: absolute;
+    left: 4px;
+    top: 17px;
+  }
+  header ul {
+    display: none;
+  }
+  header .box .btn {
+    border: 2px solid #373a3e;
+    position: absolute;
+    top: 25px;
+    right: 88px;
+    border-radius: 10px;
+    font-size: 23px;
+    padding: 17px 45px;
+  }
+  header .box .btn h3 {
+    color: #a0a2a4;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  header .box .icon {
+    font-size: 20px;
+    top: 56px;
+    position: absolute;
+    color: #a0a2a4;
+    right: 108px;
+  }
+}
+
+#welcome .box {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+  height: 782px;
+  width: 1929px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -28px;
+  right: 314px;
+  z-index: -1;
+}
+#welcome .box .textbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 303px 0 0;
+}
+#welcome .box .textbox h2 {
+  font-size: 40px;
+  color: #fbfbfb;
+}
+#welcome .box .textbox h1 {
+  font-size: 100px;
+  color: #fbfbfb;
+}
+#welcome .box .textbox .btn {
+  padding: 18px 53px;
+  font-size: 22px;
+  border-radius: 5px;
+  background-color: #ffc800;
+  font-weight: 700;
+  margin: 76px 0 0;
+}
+#welcome .box .textbox .btn a {
+  color: #fffffb;
+  cursor: pointer;
+}
+
+#SERVICES {
+  padding: 144px 0;
+}
+#SERVICES .wid {
+  width: 580px;
+}
+#SERVICES h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0 0 16px;
+}
+#SERVICES h3 {
+  font-size: 18px;
+  color: #8b9299;
+  font-weight: 400;
+  margin: 29px 0 57px;
+}
+#SERVICES .box .minibox {
+  background-color: #ffc800;
+  width: 138px;
+  border-radius: 341px;
+  height: 140px;
+  position: relative;
+  right: -135px;
+  z-index: -1;
+}
+#SERVICES .box .minibox .icon {
+  font-size: 70px;
+  position: relative;
+  top: 29px;
+  right: -27px;
+  color: white;
+}
+#SERVICES .box .minibox .iconone {
+  font-size: 70px;
+  position: relative;
+  top: 29px;
+  color: white;
+  right: -37px;
+}
+#SERVICES .box .textbox {
+  padding: 0px 50px;
+}
+#SERVICES .box .textbox h2 {
+  font-size: 25px;
+  margin: 20px 0 0;
+  font-weight: 700;
+}
+#SERVICES .box .textbox h3 {
+  font-size: 18px;
+  color: #8b9299;
+  font-weight: 400;
+  margin: 29px -16px 20px -26px;
+  line-height: 1.4;
+}
+
+#PORTFOLIO {
+  padding: 100px 0;
+}
+#PORTFOLIO h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#PORTFOLIO h3, #PORTFOLIO h4 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #a6a29c;
+  margin: 34px 0;
+  line-height: 1.4;
+}
+#PORTFOLIO .box {
+  margin: 0 5px;
+}
+#PORTFOLIO .box .imgbox {
+  position: relative;
+  opacity: 1;
+}
+#PORTFOLIO .box .imgbox img {
+  position: relative;
+  z-index: -1;
+}
+#PORTFOLIO .box .imgbox .icon {
+  transition: 2s;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  background-color: #e6b400;
+  padding: 123px 177px;
+}
+#PORTFOLIO .box .imgbox .icon:hover {
+  opacity: 1;
+}
+#PORTFOLIO .box .textbox {
+  padding: 15px;
+}
+#PORTFOLIO .box h2 {
+  font-weight: 300px;
+  font-size: 25px;
+  padding: 20px 0 0;
+}
+
+#ABOUT {
+  padding: 128px 0;
+}
+#ABOUT .textbox h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#ABOUT .textbox h3 {
+  color: #6e7b89;
+  font-size: 20px;
+  padding: 11px 0 58px;
+}
+#ABOUT h2 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0 94px;
+  line-height: 1.4;
+}
+#ABOUT p {
+  color: #6e7b89;
+  font-size: 18px;
+  line-height: 1.4;
+  position: relative;
+  right: -158px;
+  top: -77px;
+  margin: 78px 238px 0 0;
+  z-index: -1;
+}
+#ABOUT h4 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0 162px;
+  line-height: 1.4;
+}
+#ABOUT .imgbox {
+  margin: 20px 0;
+}
+#ABOUT .imgbox img {
+  width: 154px;
+  height: 151px;
+  border-radius: 85px;
+  border: 7px solid #e9ecef;
+  position: absolute;
+  left: 884px;
+  z-index: -1;
+}
+#ABOUT .minibox {
+  background-color: #ffc800;
+  width: 154px;
+  height: 151px;
+  border-radius: 85px;
+  border: 7px solid #e9ecef;
+  position: relative;
+  left: 571px;
+  z-index: -1;
+}
+#ABOUT .minibox h5 {
+  color: white;
+  font-size: 23px;
+  padding: 0 29px 0 38px;
+  font-weight: 700;
+}
+
+#TEAM .textbox h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#TEAM .textbox h3 {
+  color: #6e7b89;
+  font-size: 20px;
+  padding: 11px 0 58px;
+}
+#TEAM .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#TEAM .imgbox {
+  margin: 35px 0;
+  display: flex;
+  justify-content: center;
+}
+#TEAM .imgbox img {
+  width: 221px;
+  height: 215px;
+  border-radius: 120px;
+  border: 7px solid #e9ecef;
+}
+#TEAM ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#TEAM ul li {
+  margin: -29px 10px 5px;
+  border-radius: 50%;
+  background-color: #000000;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#TEAM ul li .icon {
+  margin: -7px;
+  color: white;
+}
+#TEAM h6 {
+  color: #6e7b89;
+  font-size: 20px;
+  margin: 45px 205px;
+}
+
+#microsoft .imgbox {
+  margin: 76px 43px;
+}
+#microsoft .imgbox img {
+  width: 176px;
+  margin: 0 68px;
+}
+
+#CONTACT {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+  background-color: #212529;
+  height: 771px;
+  width: 2061px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 9px;
+  right: 54px;
+  z-index: -1;
+}
+#CONTACT .textbox h1 {
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 150px 0 0;
+}
+#CONTACT .textbox h3 {
+  color: #6e7b89;
+  font-size: 20px;
+  padding: 11px 0 58px;
+}
+#CONTACT .add {
+  display: flex;
+  flex-direction: column;
+}
+#CONTACT .add input {
+  margin: 15px 188px;
+  padding: 21px 22px;
+  font-size: 20px;
+  color: #ced4da;
+  font-weight: 700;
+  position: relative;
+  left: 172px;
+  top: -12px;
+  z-index: -1;
+}
+#CONTACT input {
+  padding: 122px 226px;
+  font-size: 20px;
+  color: #ced4da;
+  font-weight: 700;
+}
+#CONTACT .btn {
+  padding: 18px 53px;
+  font-size: 22px;
+  border-radius: 5px;
+  background-color: #ffc800;
+  font-weight: 700;
+  margin: 76px 0 0;
+  opacity: 0.5;
+}
+#CONTACT .btn h2 {
+  color: white;
+}
+
+footer {
+  padding: 40px 0;
+}
+footer h1 {
+  font-size: 17px;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer ul li {
+  margin: -7px 10px 5px;
+  border-radius: 50%;
+  background-color: #000000;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+footer ul li .icon {
+  margin: -7px;
+  color: white;
+}
+footer h2 {
+  font-size: 17px;
+  padding: 0 36px 0 86px;
+}
+footer h3 {
+  font-size: 17px;
+}/*# sourceMappingURL=style.css.map */
