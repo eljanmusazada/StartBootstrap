@@ -14,7 +14,7 @@ header {
   position: fixed;
 }
 header h2 {
-  color: #fdd036;
+  color: #e6b400;
   font-size: 25px;
   line-height: 80px;
   padding: 0 100px;
@@ -59,7 +59,6 @@ header .box .icon {
     position: fixed;
   }
   header h2 {
-    color: #fdd036;
     font-size: 40px;
     line-height: 80px;
     padding: 0 100px;
@@ -95,16 +94,8 @@ header .box .icon {
 }
 
 #welcome .box {
-  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
-  height: 782px;
-  width: 1929px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  top: -28px;
-  right: 314px;
-  z-index: -1;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+  min-height: 100vh;
 }
 #welcome .box .textbox {
   display: flex;
