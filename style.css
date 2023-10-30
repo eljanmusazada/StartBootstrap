@@ -11,7 +11,6 @@ header {
   background-color: #212529;
   position: fixed;
   width: 100%;
-  height: 8%;
   z-index: 1;
 }
 header .imgbox {
@@ -34,129 +33,13 @@ header ul li a {
 header ul li a:hover {
   color: #fdd036;
 }
-@media screen and (max-width: 1440px) {
-  header {
-    background-color: #212529;
-    position: fixed;
-    width: 100%;
-    height: 9%;
-    z-index: 1;
-  }
-}
-@media screen and (max-width: 768px) {
-  header .imgbox {
-    position: relative;
-    top: 31px;
-  }
-  header .imgbox img {
-    width: 181px;
-  }
-  header li {
-    display: none;
-  }
-  header .box {
-    border: 1px solid #4f5963;
-    width: 106px;
-    height: 49px;
-    border-radius: 4px;
-    position: relative;
-    bottom: 11px;
-    left: 126px;
-    display: flex;
-    padding: 12px 0 0 13px;
-  }
-  header .box h3 {
-    font-size: 20px;
-    color: #a0a2a4;
-    font-weight: 700;
-  }
-  header .box .icon {
-    color: #a0a2a4;
-    padding: 0 0 0 5px;
-  }
-}
-@media screen and (max-width: 425px) {
-  header .imgbox {
-    position: relative;
-    top: 57px;
-    left: 26px;
-  }
-  header .imgbox img {
-    width: 377px;
-  }
-  header li {
-    display: none;
-  }
-  header .box {
-    border: 1px solid #4f5963;
-    width: 173px;
-    height: 87px;
-    border-radius: 4px;
-    position: relative;
-    bottom: 29px;
-    display: flex;
-    padding: 21px 0 0 16px;
-    margin-right: 141px;
-  }
-  header .box h3 {
-    font-size: 40px;
-    color: #a0a2a4;
-    font-weight: 700;
-  }
-  header .box .icon {
-    color: #a0a2a4;
-    padding: 0 0 0 17px;
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 320px) {
-  header {
-    background-color: #212529;
-    position: fixed;
-    width: 100%;
-    height: 7%;
-    z-index: 1;
-  }
-  header .imgbox {
-    position: relative;
-    top: 72px;
-    left: 104px;
-  }
-  header .imgbox img {
-    width: 428px;
-  }
-  header li {
-    display: none;
-  }
-  header .box {
-    border: 1px solid #a0a2a4;
-    width: 165px;
-    height: 108px;
-    border-radius: 4px;
-    position: relative;
-    bottom: 12px;
-    right: 151px;
-    display: flex;
-    padding: 30px 0 0 9px;
-  }
-  header .box h3 {
-    font-size: 35px;
-    color: #a0a2a4;
-    font-weight: 700;
-  }
-  header .box .icon {
-    color: #a0a2a4;
-    padding: 0 0 0 22px;
-    font-size: 40px;
-  }
-}
 
 #welcome {
   background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 70vh;
+  height: 700px;
 }
 #welcome .textbox {
   display: flex;
@@ -286,6 +169,7 @@ header ul li a:hover {
   font-size: 20px;
   color: #6c757d;
   margin: 9px 0 43px;
+  padding: 0 0 23px;
 }
 #portfolio .box {
   position: relative;
