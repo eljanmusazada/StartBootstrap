@@ -14,8 +14,7 @@ header {
   z-index: 1;
 }
 header .imgbox {
-  position: relative;
-  top: 20px;
+  margin: 30px 0 -11px;
 }
 header .imgbox img {
   width: 177px;
@@ -25,7 +24,7 @@ header ul {
   float: right;
 }
 header ul li {
-  margin: -5px 16px 0;
+  margin: -13px 19px 0;
 }
 header ul li a {
   font-size: 20px;
@@ -34,14 +33,18 @@ header ul li a:hover {
   color: #fdd036;
 }
 @media screen and (max-width: 990px) {
-  header .imgbox {
-    position: relative;
-    top: 26px;
-  }
   header li {
     display: none;
   }
-  header .box {
+  header .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0 16px;
+  }
+  header .menu .imgbox {
+    margin: 8px 0 -11px;
+  }
+  header .menu .box {
     border: 1px solid #4f5963;
     width: 106px;
     height: 49px;
@@ -49,12 +52,12 @@ header ul li a:hover {
     display: flex;
     padding: 12px 0 0 13px;
   }
-  header .box h3 {
+  header .menu .box h3 {
     font-size: 20px;
     color: #a0a2a4;
     font-weight: 700;
   }
-  header .box .icon {
+  header .menu .box .icon {
     color: #a0a2a4;
     padding: 0 0 0 5px;
   }

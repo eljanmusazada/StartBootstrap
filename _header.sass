@@ -4,39 +4,41 @@ header
     width: 100%
     z-index: 1
     .imgbox
-        position: relative
-        top: 20px
+        margin: 30px 0 -11px
         img
             width: 177px
     ul
         display: flex
         float: right
         li
-            margin: -5px 16px 0
+            margin: -13px 19px 0
             a
                 font-size: 20px
                 &:hover
                     color: #fdd036
     @media screen and ( max-width: 990px )
-        .imgbox
-            position: relative
-            top: 26px
         li
             display: none
-        .box
-            border: 1px solid #4f5963
-            width: 106px
-            height: 49px
-            border-radius: 4px
+        .menu
             display: flex
-            padding: 12px 0 0 13px
-            h3
-                font-size: 20px
-                color: #a0a2a4
-                font-weight: 700
-            .icon
-                color: #a0a2a4
-                padding: 0 0 0 5px
+            justify-content: space-between
+            padding: 21px 0 16px
+            .imgbox
+                margin: 8px 0 -11px
+            .box
+                border: 1px solid #4f5963
+                width: 106px
+                height: 49px
+                border-radius: 4px
+                display: flex
+                padding: 12px 0 0 13px
+                h3
+                    font-size: 20px
+                    color: #a0a2a4
+                    font-weight: 700
+                .icon
+                    color: #a0a2a4
+                    padding: 0 0 0 5px
     // @media screen and ( max-width: 1440px )
     //     background-color: #212529
     //     position: fixed
