@@ -123,7 +123,7 @@ header ul li a:hover {
   margin: 0 0 16px;
 }
 #services h3 {
-  font-size: 18px;
+  font-size: 20px;
   color: #8b9299;
   font-weight: 400;
   padding: 19px 0 44px;
@@ -139,6 +139,7 @@ header ul li a:hover {
   border-radius: 50%;
   width: 136px;
   height: 130px;
+  margin-left: 34%;
 }
 #services .icon i {
   font-size: 70px;
