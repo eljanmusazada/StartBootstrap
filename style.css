@@ -92,6 +92,11 @@ header ul li a:hover {
   font-weight: 700;
   margin: 76px 0 0;
 }
+@media screen and (max-width: 488px) {
+  #welcome {
+    height: 900px;
+  }
+}
 @media screen and (max-width: 394px) {
   #welcome {
     height: 974px;
@@ -150,6 +155,41 @@ header ul li a:hover {
     margin-left: 37%;
   }
 }
+@media screen and (max-width: 490px) {
+  #services .icon {
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width: 486px) {
+  #services .icon {
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #services .icon {
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width: 424px) {
+  #services .icon {
+    margin-left: 33%;
+  }
+}
+@media screen and (max-width: 420px) {
+  #services .icon {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 330px) {
+  #services .icon {
+    margin-left: 27%;
+  }
+}
+@media screen and (max-width: 324px) {
+  #services .icon {
+    margin-left: 28%;
+  }
+}
 
 #portfolio {
   padding: 50px 0;
@@ -188,7 +228,7 @@ header ul li a:hover {
 #portfolio .box .portfoliobox {
   position: absolute;
   width: 100%;
-  height: 78%;
+  height: 73%;
   transition: 0.5s;
   opacity: 0;
   background-color: #e6b400;
@@ -208,6 +248,31 @@ header ul li a:hover {
 }
 #portfolio .box .portfoliobox .icon i {
   margin-top: -12px;
+}
+@media screen and (max-width: 1399px) {
+  #portfolio .box .portfoliobox {
+    height: 71%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #portfolio .box .portfoliobox {
+    height: 67%;
+  }
+}
+@media screen and (max-width: 991px) {
+  #portfolio .box .portfoliobox {
+    height: 59%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #portfolio .box .portfoliobox {
+    height: 73%;
+  }
+}
+@media screen and (max-width: 320px) {
+  #portfolio .box .portfoliobox {
+    height: 67%;
+  }
 }
 
 #about {
