@@ -132,44 +132,17 @@ header ul li a:hover {
 }
 @media screen and (max-width: 1399px) {
   #services .icon {
-    background-color: #ffc800;
-    border-radius: 50%;
-    width: 136px;
-    height: 130px;
     margin-left: 31%;
-  }
-  #services .icon i {
-    font-size: 70px;
-    color: white;
-    padding: 29px 0 0;
   }
 }
 @media screen and (max-width: 1199px) {
   #services .icon {
-    background-color: #ffc800;
-    border-radius: 50%;
-    width: 136px;
-    height: 130px;
     margin-left: 28%;
-  }
-  #services .icon i {
-    font-size: 70px;
-    color: white;
-    padding: 29px 0 0;
   }
 }
 @media screen and (max-width: 991px) {
   #services .icon {
-    background-color: #ffc800;
-    border-radius: 50%;
-    width: 136px;
-    height: 130px;
     margin-left: 20%;
-  }
-  #services .icon i {
-    font-size: 70px;
-    color: white;
-    padding: 29px 0 0;
   }
 }
 @media screen and (max-width: 767px) {
