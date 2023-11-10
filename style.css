@@ -277,7 +277,21 @@ header ul li a:hover {
 
 #about .box {
   display: flex;
-  justify-content: flex-start;
+}
+#about .box .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+#about .box .textbox h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+#about .box .textbox p {
+  color: #6e7b89;
+  font-size: 18px;
+  line-height: 1.4;
 }
 #about .box .imgbox {
   width: 200px;
