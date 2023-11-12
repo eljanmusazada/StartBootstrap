@@ -1,128 +1,131 @@
 #about
+    padding: 50px 0
+    h1
+        font-weight: 700
+        font-size: 50px
+    h3
+        color: #70808d
+        font-size: 20px
+        margin: 25px 0 53px
     .box
         display: flex
+        margin: 0 0 150px 100px
         .textbox
-            h2
-                font-size: 30px
+            width: 400px
+            text-align: end
+            margin: 0 20px
+            h2,h4
                 font-weight: 700
-                line-height: 1.4
-            h3
                 font-size: 30px
-                font-weight: 700
-                line-height: 1.4
+                margin-bottom: 10px
             p
-                color: #6e7b89
-                font-size: 18px
+                font-size: 19px
+                color: #70808d
+                line-height: 1.4
+        .textboxtwo
+            width: 400px
+            margin: 0 20px
+            h2,h4
+                font-weight: 700
+                font-size: 30px
+                margin-bottom: 10px
+            p
+                font-size: 19px
+                color: #70808d
                 line-height: 1.4
         .imgbox
             img
-                width: 200px
-    // padding: 50px 0
-    // .imgbox
-    //     img
-    //         width: 150px
-    //         height: 150px
-    //         margin-left: -89px
-    // .imgboxtwo
-    //     img
-    //         width: 150px
-    //         height: 150px
-    // .box
-    //     .imgbox
-    //         width: 200px
-    //         height: 200px
+                border: 7px solid #edecf1
+                width: 170px
+                height: 170px
+                margin: 0 30px
+                border-radius: 50%
+    .right
+        margin: 0 90px 150px 0
+    .add
+        display: flex
+        justify-content: center
+        .minibox
+            display: flex
+            align-items: center
+            justify-content: center
+            padding: 0 40px
+            h5
+                font-weight: 700
+                font-size: 20px
+                line-height: 1.4
+    .part
+        width: 170px
+        height: 170px
+        border-radius: 50%
+        margin: 0 30px
+        background-color: #ffc800
+        color: #ffff
+        border: 6px solid #edecf1
+    @media screen and ( max-width: 1400px )
+        .box
+            margin: 0 10px 150px 0
 
-    // .box
-    //     position: relative
-    //     padding: 0
-    //     list-style: none
-    //     li
-    //         position: relative
-    //         min-height: 50px
-    //         margin-bottom: 50px
-    //     .textbox
-    //         position: relative
-    //         float: right
-    //         width: 100%
-    //         padding: 0 20px 0 100px
-    //         text-align: left
-    //     .imgbox
-    //         position: absolute
-    //         z-index: 100
-    //         left: 0
-    //         width: 80px
-    //         height: 80px
-    //         margin-left: 0
-    //         text-align: center
-    //         color: white
-    //         border: 7px solid #e9ecef
-    //         border-radius: 100%
-    //         background-color: #fed136
-        // .textbox
-        //     position: relative
-        //     float: right
-        //     width: 100%
-        //     padding: 0 20px 0 100px
-        //     text-align: left
-    // padding: 128px 0
-    // .textbox
-    // h1
-    //     font-size: 50px
-    //     font-weight: 700
-    // h3
-    //     color: #6e7b89
-    //     font-size: 20px
-    //     padding: 11px 0 58px
-    // h2
-    //     font-size: 30px
-    //     font-weight: 700
-    //     padding: 0 94px
-    //     line-height: 1.4
-    // p
-    //     color: #6e7b89
-    //     font-size: 18px
-    //     line-height: 1.4
-    //     position: relative
-    //     right: -158px
-    //     top: -77px
-    //     margin: 78px 238px 0 0
-    //     z-index: -1
-    // h4
-    //     font-size: 30px
-    //     font-weight: 700
-    //     padding: 0 162px
-    //     line-height: 1.4
-    // .imgbox
-    //     margin: 20px 0
-    //     img
-    //         width: 154px
-    //         height: 151px
-    //         border-radius: 85px
-    //         border: 7px solid #e9ecef
-    //         position: absolute
-    //         left: 884px
-    //         z-index: -1
-    // .imgboxtwo
-    //     margin: 20px 0
-    //     img
-    //         width: 154px
-    //         height: 151px
-    //         border-radius: 85px
-    //         border: 7px solid #e9ecef
-    //         position: absolute
-    //         left: 884px
-    //         z-index: -1
-    // .minibox
-    //     background-color: #ffc800
-    //     width: 154px
-    //     height: 151px
-    //     border-radius: 85px
-    //     border: 7px solid #e9ecef
-    //     position: relative
-    //     left: 571px
-    //     z-index: -1
-    //     h5
-    //         color: white
-    //         font-size: 23px
-    //         padding: 0 29px 0 38px
-    //         font-weight: 700
+    @media screen and ( max-width: 1200px )
+        .box
+            margin: 0 -73px 83px 0px
+            .textbox
+                width: 300px
+            .img
+                width: 150px
+                height: 150px
+
+    @media screen and ( max-width: 992px )
+        .box
+            margin: 0 15px 100px
+            .textbox
+                width: 215px
+            .img
+                width: 100px
+        .minibox
+            padding: 0 20px
+            h5
+                font-size: 15px
+        .part
+            width: 170px
+            height: 170px
+
+    @media screen and ( max-width: 768px )
+        .box
+            align-items: flex-start
+            flex-direction: row-reverse
+            margin-bottom: 70px
+            .textbox
+                width: 400px
+                text-align: start
+            .img
+                width: 140px
+                height: auto
+                margin: 0
+        .right
+            flex-direction: row
+            .textbox
+                text-align: start
+        .add
+            justify-content: flex-start
+            .part
+                width: 130px
+                height: 130px
+                padding: 0 30px
+                margin-left: 10px
+
+    @media screen and ( max-width: 576px )
+        .text-center
+            h1
+                font-size: 40px
+        .box
+            .img
+                width: 100px
+                height: auto
+        .add
+            .part
+                width: 100px
+                height: 100px
+                padding: 0 15px
+                h5
+                    font-size: 15px

@@ -275,26 +275,170 @@ header ul li a:hover {
   }
 }
 
+#about {
+  padding: 50px 0;
+}
+#about h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+#about h3 {
+  color: #70808d;
+  font-size: 20px;
+  margin: 25px 0 53px;
+}
 #about .box {
   display: flex;
+  margin: 0 0 150px 100px;
 }
-#about .box .textbox h2 {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 1.4;
+#about .box .textbox {
+  width: 400px;
+  text-align: end;
+  margin: 0 20px;
 }
-#about .box .textbox h3 {
-  font-size: 30px;
+#about .box .textbox h2, #about .box .textbox h4 {
   font-weight: 700;
-  line-height: 1.4;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 #about .box .textbox p {
-  color: #6e7b89;
-  font-size: 18px;
+  font-size: 19px;
+  color: #70808d;
+  line-height: 1.4;
+}
+#about .box .textboxtwo {
+  width: 400px;
+  margin: 0 20px;
+}
+#about .box .textboxtwo h2, #about .box .textboxtwo h4 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#about .box .textboxtwo p {
+  font-size: 19px;
+  color: #70808d;
   line-height: 1.4;
 }
 #about .box .imgbox img {
-  width: 200px;
+  border: 7px solid #edecf1;
+  width: 170px;
+  height: 170px;
+  margin: 0 30px;
+  border-radius: 50%;
+}
+#about .right {
+  margin: 0 90px 150px 0;
+}
+#about .add {
+  display: flex;
+  justify-content: center;
+}
+#about .add .minibox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+}
+#about .add .minibox h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+}
+#about .part {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 0 30px;
+  background-color: #ffc800;
+  color: white;
+  border: 6px solid #edecf1;
+}
+@media screen and (max-width: 1400px) {
+  #about .box {
+    margin: 0 10px 150px 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #about .box {
+    margin: 0 -73px 83px 0px;
+  }
+  #about .box .textbox {
+    width: 300px;
+  }
+  #about .box .img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #about .box {
+    margin: 0 15px 100px;
+  }
+  #about .box .textbox {
+    width: 215px;
+  }
+  #about .box .img {
+    width: 100px;
+  }
+  #about .minibox {
+    padding: 0 20px;
+  }
+  #about .minibox h5 {
+    font-size: 15px;
+  }
+  #about .part {
+    width: 170px;
+    height: 170px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about .box {
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    margin-bottom: 70px;
+  }
+  #about .box .textbox {
+    width: 400px;
+    text-align: start;
+  }
+  #about .box .img {
+    width: 140px;
+    height: auto;
+    margin: 0;
+  }
+  #about .right {
+    flex-direction: row;
+  }
+  #about .right .textbox {
+    text-align: start;
+  }
+  #about .add {
+    justify-content: flex-start;
+  }
+  #about .add .part {
+    width: 130px;
+    height: 130px;
+    padding: 0 30px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #about .text-center h1 {
+    font-size: 40px;
+  }
+  #about .box .img {
+    width: 100px;
+    height: auto;
+  }
+  #about .add .part {
+    width: 100px;
+    height: 100px;
+    padding: 0 15px;
+  }
+  #about .add .part h5 {
+    font-size: 15px;
+  }
 }
 
 #team .textbox h1 {
